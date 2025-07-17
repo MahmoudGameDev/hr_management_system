@@ -1,0 +1,40 @@
+{
+    // Python Analysis Settings (for BasedPyright/Pyright/Pylance)
+    "python.analysis.exclude": [
+        "**/venv",                  // Standard virtual environment folder
+        "**/.venv",                 // Another common virtual environment folder
+        "**/__pycache__",           // Python bytecode cache
+        "db_backups",               // Your project's database backup directory (from config.py)
+        "employee_documents",       // Your project's employee documents directory (from config.py)
+        "typings"                   // If you have a typings folder, exclude it if not actively used for analysis
+        // Add any other large data folders or generated file directories here.
+        // For example, if you have a folder for large reports: "**/generated_reports"
+    ],
+
+    // Reduce analysis burden further
+    "python.analysis.autoImportCompletions": false, // Disabling this can reduce overhead.
+    "python.analysis.typeCheckingMode": "basic",    // "basic" mode is less memory-intensive than "strict".
+                                                    // If memory usage is still too high, you can try "off",
+                                                    // but you'll lose type checking features.
+
+    // Optional: VS Code specific settings to reduce file watching and search scope,
+    // which can improve overall VS Code performance.
+    "files.watcherExclude": {
+        "**/venv/**": true,
+        "**/.venv/**": true,
+        "**/__pycache__/**": true,
+        "db_backups/**": true,
+        "employee_documents/**": true,
+        "**/node_modules/**": true, // Good to have even if not currently used
+        "**/.git/**": true          // Exclude git metadata folder
+    },
+    "search.exclude": {
+        "**/venv/**": true,
+        "**/.venv/**": true,
+        "**/__pycache__/**": true,
+        "db_backups/**": true,
+        "employee_documents/**": true,
+        "**/node_modules/**": true,
+        "**/.git/**": true
+    }
+}

@@ -1,0 +1,21 @@
+configparser
+ttkbootstrap
+Pillow
+pyzk
+bcrypt
+pdfminer.six
+requests
+reportlab
+pandas
+matplotlib
+scikit-learn
+# pyresparser and its dependencies are optional, but if used:
+# pyresparser
+# spacy
+# nltk 
+# PyMuPDF (fitz) is optional for PDF signing:
+# PyMuPDF
+# qrcode
+# openpyxl # Often needed by pandas for Excel export/import
+gspread
+oauth2client

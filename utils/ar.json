@@ -1,0 +1,1049 @@
+{
+    "app_title": "نظام إدارة الموارد البشرية",
+    "login_window_title": "تسجيل الدخول - نظام إدارة الموارد البشرية",
+    "login_username_label": "اسم المستخدم:",
+    "login_password_label": "كلمة المرور:",
+    "login_button_text": "تسجيل الدخول",
+    "login_failed_title": "فشل تسجيل الدخول",
+    "login_failed_message": "اسم المستخدم أو كلمة المرور غير صالحة.",
+    "login_required_message": "اسم المستخدم وكلمة المرور مطلوبان.",
+    "toggle_language_btn": "تغيير إلى الإنجليزية",
+    "employee_id_label": "المعرف:",
+    "name_label": "الاسم:",
+    "department_label": "القسم:", 
+    "position_label": "المنصب:",
+    "salary_label": "الراتب:",
+    "add_employee_btn": "إضافة موظف",
+    "update_selected_btn": "تحديث المحدد",
+    "clear_fields_btn": "مسح الحقول والاختيار",
+    "delete_selected_btn": "حذف المحدد",
+    "refresh_list_btn_text": "تحديث القائمة",
+    "status_select_employee": "الحالة: اختر موظفًا",
+    "initial_setup_title": "الإعداد الأولي",
+    "initial_setup_message": "لم يتم العثور على مسؤول. يرجى إنشاء واحد.",
+    "admin_setup_username_prompt": "أدخل اسم مستخدم المسؤول:",
+    "admin_setup_password_prompt": "أدخل كلمة مرور المسؤول:",
+    "setup_complete_title": "اكتمل الإعداد",
+    "setup_complete_message": "تم إنشاء مستخدم المسؤول بنجاح. يرجى تسجيل الدخول.",
+    "confirm_delete_title": "تأكيد الحذف",
+    "confirm_delete_employee_message": "هل أنت متأكد أنك تريد حذف الموظف {emp_id}؟",
+    "success_title": "نجاح",
+    "employee_deleted_message": "تم حذف الموظف {emp_id} بنجاح.",
+    "input_error_title": "خطأ في الإدخال",
+    "db_error_title": "خطأ في قاعدة البيانات",
+    "employee_added_message": "تمت إضافة الموظف {name} (المعرف: {emp_id}) بنجاح.",
+    "required_fields_message": "الاسم والمنصب والراتب وأيام الإجازة مطلوبة.",
+    "salary_negative_error": "لا يمكن أن يكون الراتب سالبًا.",
+    "vacation_negative_error": "لا يمكن أن تكون أيام الإجازة سالبة.",
+    "nav_employees_btn_text": "الموظفون",
+    "nav_adv_search_btn_text": "بحث متقدم",
+    "nav_dashboard_btn_text": "لوحة التحكم",
+    "nav_reports_btn_text": "التقارير",
+    "nav_payroll_btn_text": "كشوف المرتبات",
+    "nav_alerts_btn_text": "التنبيهات",
+    "nav_analytics_btn_text": "التحليلات",
+    "nav_user_admin_btn_text": "إدارة المستخدمين",
+    "nav_settings_btn_text": "الإعدادات",
+    "nav_device_sync_btn_text": "مزامنة الجهاز",
+    "toggle_dark_mode_btn_text": "تبديل الوضع الداكن",
+    "toggle_light_mode_btn_text": "تبديل الوضع الفاتح",
+    "search_filter_frame_title": "بحث وتصفية",
+    "search_field_label": "الحقل:",
+    "search_term_label": "مصطلح البحث:",
+    "search_button_text": "بحث",
+    "show_all_button_text": "عرض الكل",
+    "employee_list_frame_title": "قائمة الموظفين",
+    "employee_actions_table_frame_title": "إجراءات الموظفين (جدول)",
+    "selected_employee_actions_frame_title": "إجراءات الموظف المحدد",
+    "view_full_profile_btn_text": "عرض الملف الشخصي الكامل",
+    "print_btn_text": "طباعة",
+    "terminate_employee_btn_text": "إنهاء خدمة الموظف",
+    "export_csv_btn_text": "تصدير CSV",
+    "import_csv_btn_text": "استيراد CSV",
+    "clock_in_selected_btn_text": "تسجيل حضور المحدد",
+    "clock_out_selected_btn_text": "تسجيل انصراف المحدد",
+    "view_attendance_log_btn_text": "عرض سجل الحضور",
+    "status_bar_ready_text": "الحالة: جاهز",
+    "start_date_required_error": "تاريخ البدء مطلوب.",
+    "invalid_salary_vacation_format": "تنسيق غير صالح للراتب (رقم) أو أيام الإجازة (عدد صحيح).",
+    "employee_updated_message": "تم تحديث الموظف (المعرف: {emp_id}) بنجاح.",
+    "no_employee_selected_error": "لم يتم تحديد موظف أو حقل المعرف فارغ. يرجى تحديد موظف من القائمة أو البحث.",
+    "about_dialog_title": "حول نظام إدارة الموارد البشرية",
+    "about_program_name_label": "اسم البرنامج:",
+    "about_version_label": "الإصدار:",
+    "about_developer_label": "المطور:",
+    "about_copyright_label": "حقوق النشر:",
+    "about_close_btn": "إغلاق",
+    "user_admin_username_label": "اسم المستخدم:",
+    "user_admin_password_label": "كلمة المرور (اتركه فارغًا للإبقاء على الحالية):",
+    "user_admin_password_hint": "(اتركه فارغًا للإبقاء على كلمة المرور الحالية)",
+    "user_admin_role_label": "الدور:",
+    "user_admin_add_btn": "إضافة مستخدم",
+    "user_admin_save_changes_btn": "حفظ التغييرات",
+    "user_admin_delete_btn": "حذف المستخدم",
+    "user_admin_clear_btn": "مسح الحقول",
+    "user_admin_list_frame_title": "قائمة المستخدمين",
+    "user_admin_details_frame_title": "تفاصيل المستخدم / الإجراءات",
+    "nav_employee_tasks_btn_text": "مهام الموظفين",
+    "tasks_view_title": "إدارة مهام الموظفين",
+    "tasks_filter_frame_title": "تصفية المهام",
+    "tasks_assignee_label": "مُسندة إلى (موظف):",
+    "tasks_status_label": "الحالة:",
+    "tasks_priority_label": "الأولوية:",
+    "tasks_assigned_by_label": "أُسندت بواسطة (مستخدم):",
+    "tasks_monitor_label": "مُراقبة بواسطة (مستخدم):",
+    "tasks_add_btn_text": "إضافة مهمة جديدة",
+    "tasks_edit_btn_text": "تعديل المهمة المحددة",
+    "tasks_delete_btn_text": "حذف المهمة المحددة",
+    "tasks_refresh_btn_text": "تحديث القائمة",
+    "task_form_title_add": "إضافة مهمة جديدة",
+    "task_form_title_edit": "تعديل المهمة",
+    "task_title_label": "عنوان المهمة:",
+    "task_description_label": "الوصف:",
+    "task_due_date_label": "تاريخ الاستحقاق:",
+    "task_all_option": "الكل",
+    "dashboard_period_label": "اختر الفترة:",
+    "dashboard_from_date_label": "من تاريخ:",
+    "dashboard_to_date_label": "إلى تاريخ:",
+    "dashboard_refresh_btn_text": "تحديث لوحة التحكم",
+    "dashboard_chart_headcount_title": "عدد الموظفين حسب القسم",
+    "dashboard_chart_absenteeism_title": "معدل الغياب حسب القسم (%)",
+    "dashboard_chart_leave_status_title": "حالات طلبات الإجازة",
+    "dashboard_chart_dept_adherence_title": "نسبة الالتزام بالحضور حسب القسم (%)",
+    "dashboard_chart_payslips_title": "كشوف المرتبات الصادرة حسب القسم",
+    "dashboard_card_employees": "إجمالي الموظفين",
+    "dashboard_card_pending_leaves": "الإجازات المعلقة",
+    "dashboard_card_departments": "الأقسام",
+    "dashboard_card_absences_today": "غيابات اليوم",
+    "dashboard_card_absences_this_week": "غيابات هذا الأسبوع",
+    "dashboard_card_absences_this_month": "غيابات هذا الشهر",
+    "dashboard_card_absences_last_month": "غيابات الشهر الماضي",
+    "dashboard_card_absences_this_year": "غيابات هذا العام",
+    "dashboard_card_absences_last_year": "غيابات العام الماضي",
+    "dashboard_card_payslips_generated": "كشوف المرتبات الصادرة",
+    "dashboard_card_payslips_pending": "كشوف المرتبات المعلقة",
+    "dashboard_card_payslips_overdue": "كشوف المرتبات المتأخرة",
+    "dashboard_card_employee_turnover": "دوران الموظفين",
+    "dashboard_card_employee_turnover_rate": "معدل دوران الموظفين (%)",
+    "dashboard_card_avg_working_hours": "متوسط ساعات العمل",
+    "dashboard_card_avg_leave_days": "متوسط أيام الإجازة",
+    "dashboard_card_avg_vacation_days": "متوسط أيام العطلة",
+    "dashboard_card_avg_salary": "متوسط الراتب",
+    "dashboard_card_avg_leave_requests": "متوسط طلبات الإجازة",
+    "dashboard_card_avg_payslips": "متوسط كشوف المرتبات الصادرة",
+    "dashboard_card_avg_absences": "متوسط الغيابات",
+    "dashboard_card_avg_payroll": "متوسط الرواتب",
+    "dashboard_card_avg_turnover": "متوسط دوران الموظفين",
+    "dashboard_no_data_for_charts": "لا توجد بيانات للرسوم البيانية في الفترة المحددة.",
+    "dashboard_chart_avg_perf_dept_ylabel": "Average Score",
+
+    "nav_chatbot_btn_text": "المساعد",
+    "chatbot_window_title": "المساعد الافتراضي للموارد البشرية",
+    "chatbot_input_prompt": "اكتب أمرك أو سؤالك...",
+    "chatbot_send_btn": "إرسال",
+    "chatbot_greeting": "مرحباً! كيف يمكنني مساعدتك اليوم؟ اكتب 'مساعدة' للأوامر.",
+    "chatbot_help_text": "الأوامر المتاحة:\n- 'مرحباً' أو 'أهلاً'\n- 'عرض موظف [المعرف]'\n- 'قائمة الموظفين'\n- 'مساعدة'",
+    "chatbot_unknown_command": "عذراً، لم أفهم ذلك. اكتب 'مساعدة' للأوامر المتاحة.",
+    "stats_summary_frame_title": "ملخص الإحصائيات",
+    "recommendations_alerts_frame_title": "التوصيات والتنبيهات",
+    "device_sync_info_frame_title": "معلومات الجهاز",
+    "device_sync_assoc_device_label": "الجهاز المرتبط:",
+    "device_sync_last_sync_label": "آخر مزامنة:",
+    "device_sync_status_label": "الحالة:",
+    "device_sync_test_conn_btn": "اختبار الاتصال",
+    "device_sync_resync_btn": "مزامنة الآن",
+    "device_sync_auto_sync_toggle": "تمكين المزامنة التلقائية",
+    "device_sync_log_frame_title": "سجل المزامنة",
+    "interview_scheduling_placeholder_label": "إدارة جداول المقابلات",
+    "interview_scheduling_open_window_btn": "فتح مجدول المقابلات",
+    "metrics_placeholder_label": "عرض مقاييس الموارد البشرية والتطبيق",
+    "metrics_open_window_btn": "فتح لوحة مقاييس الأداء",
+    "metrics_dashboard_title": "مقاييس الموارد البشرية والتطبيق",
+    "nav_metrics_btn_text": "المقاييس",
+    "metrics_hr_tab_title": "مقاييس الموارد البشرية",
+    "metrics_app_usage_tab_title": "استخدام التطبيق",
+    "nav_interview_scheduling_btn_text": "جدولة المقابلات",
+    "tooltip_add_employee": "فتح نموذج لإضافة موظف جديد (Ctrl+N).",
+    "tooltip_refresh_list": "تحديث قائمة الموظفين من قاعدة البيانات.",
+    "tooltip_update_selected": "تحديث بيانات الموظف المحدد في قاعدة البيانات.",
+    "tooltip_clear_fields": "مسح الحقول وإلغاء اختيار الموظف المحدد.",
+    "tooltip_delete_selected": "حذف الموظف المحدد من قاعدة البيانات.",
+    "tooltip_view_full_profile": "فتح عرض الملف الشخصي الكامل للموظف المحدد.",
+    "tooltip_print": "طباعة بيانات الموظف المحدد.",
+    "tooltip_terminate_employee": "إنهاء خدمة الموظف المحدد.",
+    "tooltip_export_csv": "تصدير بيانات الموظفين إلى ملف CSV.",
+    "tooltip_import_csv": "استيراد بيانات الموظفين من ملف CSV.",
+    "tooltip_clock_in_selected": "تسجيل حضور الموظف المحدد.",
+    "tooltip_clock_out_selected": "تسجيل انصراف الموظف المحدد.",
+    "tooltip_view_attendance_log": "فتح نموذج سجل حضور الموظف المحدد.",
+    "tooltip_view_manage_employees": "عرض وإدارة تفاصيل الموظفين.",
+    "tooltip_adv_search_employees": "فتح البحث المتقدم عن الموظفين.",
+    "tooltip_view_dashboard": "فتح لوحة تحكم الموارد البشرية.",
+    "tooltip_generate_reports": "إنشاء تقارير موارد بشرية متنوعة.",
+    "tooltip_manage_payroll": "الوصول إلى ميزات إدارة كشوف المرتبات.",
+    "tooltip_view_hr_alerts": "عرض تنبيهات وإشعارات الموارد البشرية.",
+    "tooltip_manage_tasks": "إدارة مهام الموظفين.",
+    "tooltip_manage_interviews": "إدارة جداول المقابلات.",
+    "tooltip_access_analytics": "الوصول إلى ميزات التحليلات التنبؤية.",
+    "tooltip_view_metrics": "عرض مقاييس الموارد البشرية والتطبيق.",
+    "tooltip_sync_device_data": "مزامنة البيانات مع أجهزة الحضور والانصراف.",
+    "tooltip_manage_users": "إدارة مستخدمي التطبيق وأدوارهم.",
+    "tooltip_configure_settings": "تكوين إعدادات التطبيق.",
+    "tooltip_open_chatbot": "فتح المساعد الافتراضي للموارد البشرية.",
+    "tooltip_show_about_program": "عرض معلومات حول البرنامج.",
+    "tooltip_toggle_theme": "التبديل بين الوضع الفاتح والداكن.",
+    "main_tab_employees": "الموظفون",
+    "main_tab_search": "بحث",
+    "main_tab_dashboard": "لوحة التحكم",
+    "main_tab_reports": "التقارير",
+    "main_tab_payroll": "كشوف المرتبات",
+    "main_tab_alerts": "التنبيهات",
+    "main_tab_analytics": "التحليلات",
+    "main_tab_user_admin": "إدارة المستخدمين",
+    "main_tab_settings": "الإعدادات",
+    "main_tab_device_sync": "مزامنة الجهاز",
+    "main_tab_tasks": "المهام",
+    "main_tab_metrics": "المقاييس",
+    "main_tab_interview_scheduling": "جدولة المقابلات",
+    "emp_details_tab_general_info": "معلومات عامة",
+    "emp_details_tab_attendance": "الحضور",
+    "emp_details_tab_payroll": "سجل الرواتب",
+    "emp_details_tab_documents": "المستندات",
+    "emp_details_tab_action_log": "سجل الإجراءات",
+    "job_details_section_title": "تفاصيل الوظيفة",
+    "benefits_device_section_title": "المزايا والجهاز",
+    "qualifications_history_section_title": "المؤهلات والتاريخ",
+    "emp_hist_section_title": "📜 تاريخ التوظيف",
+    "photo_section_title": "🖼️ الصورة",
+    "no_photo_text": "لا توجد صورة",
+    "marital_status_icon_label": "🎂 الحالة الاجتماعية:",
+    "gender_icon_label": "🚻 الجنس:", 
+    "phone_icon_label": "☎ الهاتف:",
+    "email_icon_label": "📧 البريد الإلكتروني:",
+    "department_icon_label": "🏢 القسم:",
+    "position_icon_label": "💼 المنصب:",
+    "salary_icon_label": "💰 الراتب:",
+    "start_date_icon_label": "📅 تاريخ البدء:",
+    "status_icon_label": "🚦 الحالة:", 
+    "termination_date_icon_label": "🚪 تاريخ الإنهاء:",
+    "vacation_days_icon_label": "🏖️ أيام الإجازة:",
+    "exclude_vacation_policy_icon_label": "🚫 استثناء من سياسة الإجازات:",
+    "device_user_id_icon_label": "🆔 معرف الجهاز:",
+    "education_icon_label": "🎓 التعليم:",
+    "dashboard_placeholder_label": "Dashboard content will be displayed here. Click button to open full dashboard.", 
+    "reports_placeholder_label": "Reports content will be displayed here. Click button to open reports window.", 
+    "payroll_placeholder_label": "Payroll content will be displayed here. Click button to open payroll window.", 
+    "alerts_placeholder_label": "Alerts content will be displayed here. Click button to open alerts window.", 
+    "settings_placeholder_label": "Settings content will be displayed here. Click button to open settings window.", 
+    "analytics_train_attrition_btn": "Train Employee Attrition Model",
+    "analytics_attrition_placeholder_text": "Attrition model status and predictions will appear here...", 
+    "profile_window_title_prefix": "الملف الشخصي",
+    "profile_tab_details": "التفاصيل الشخصية والوظيفية",
+    "profile_tab_documents": "المستندات",
+    "profile_tab_action_log": "سجل الإجراءات",
+    "profile_tab_econtract": "العقد الإلكتروني",
+    "profile_tab_cv_analysis": "تحليل السيرة الذاتية والملاءمة",
+    "profile_section_personal_info": "👤 المعلومات الشخصية",
+    "profile_section_contact_info": "📞 معلومات الاتصال",
+    "profile_section_employment_details": "💼 تفاصيل التوظيف",
+    "profile_section_system_benefits": "⚙️ النظام والمزايا",
+    "profile_section_qualifications": "🎓 المؤهلات",
+    "profile_section_photo": "🖼️ الصورة الشخصية",
+    "profile_no_photo_text": "لا توجد صورة متاحة",
+    "profile_section_emp_history": "📜 تاريخ التوظيف",
+    "profile_doc_section_title": "المستندات",
+    "profile_doc_view_btn": "عرض المحدد",
+    "profile_doc_delete_btn": "حذف المحدد",
+    "profile_doc_add_btn": "إضافة مستند",
+    "profile_doc_sign_btn": "توقيع المستند",
+    "profile_doc_create_contract_btn": "إنشاء عقد جديد",
+    "profile_doc_id_header": "معرف المستند",
+    "profile_doc_type_header": "النوع",
+    "profile_doc_filename_header": "اسم الملف",
+    "profile_doc_uploaded_header": "تاريخ الرفع",
+    "profile_action_log_section_title": "سجل إجراءات الموظف",
+    "profile_action_log_timestamp_header": "الطابع الزمني",
+    "profile_action_log_action_header": "وصف الإجراء",
+    "profile_action_log_performed_by_header": "تم بواسطة",
+    "profile_econtract_section_title": "إدارة العقود الإلكترونية لهذا الموظف",
+    "profile_econtract_manage_btn": "إنشاء/إدارة العقود",
+    "profile_cv_upload_section_title": "رفع وتحليل السيرة الذاتية",
+    "profile_cv_file_label": "ملف السيرة الذاتية:",
+    "profile_cv_browse_btn": "تصفح...",
+    "profile_cv_parse_btn": "تحليل السيرة الذاتية",
+    "profile_cv_extracted_data_section_title": "البيانات المستخرجة من السيرة الذاتية",
+    "profile_cv_parsed_data_placeholder": "ستظهر بيانات السيرة الذاتية المحللة هنا...",
+    "profile_cv_suitability_section_title": "تقييم الملاءمة الأساسي",
+    "profile_cv_job_desc_label": "الوصف الوظيفي/الكلمات المفتاحية:",
+    "profile_cv_job_desc_placeholder": "ألصق الوصف الوظيفي أو الكلمات المفتاحية المطلوبة هنا (مفصولة بفواصل للكلمات المفتاحية).",
+    "profile_cv_assess_btn": "تقييم الملاءمة",
+    "profile_cv_suitability_results_placeholder": "ستظهر نتائج تقييم الملاءمة هنا...",
+    "about_tech_support_header": "الدعم الفني",
+    "about_support_email_label": "البريد الإلكتروني للدعم:",
+    "about_support_phone_label": "الهاتف / واتساب:",
+    "form_window_title_add": "إضافة موظف جديد",
+    "form_window_title_edit": "تعديل الموظف: {emp_id}",
+    "form_section_personal_photo": "المعلومات الشخصية والصورة", 
+    "form_marital_status_label": "🎂 الحالة الاجتماعية:",
+    "form_gender_label": "🚻 الجنس:",
+    "form_photo_path_label": "🖼️ مسار الصورة:",
+    "form_section_contact_info": "معلومات الاتصال",
+    "form_phone_label": "☎ الهاتف:",
+    "form_email_label": "📧 البريد الإلكتروني:",
+    "form_section_employment_details": "تفاصيل التوظيف",
+    "form_section_benefits_device": "المزايا ومعرف الجهاز",
+    "form_vacation_days_label": "🏖️ أيام الإجازة:",
+    "form_exclude_vacation_label": "🚫 استثناء من سياسة الإجازات:",
+    "form_device_id_label": "🆔 معرف الجهاز:",
+    "form_section_qualifications_history": "المؤهلات والتاريخ",
+    "form_education_label": "🎓 التعليم:",
+    "form_emp_history_label": "📜 تاريخ التوظيف:",
+    "form_button_cancel": "إلغاء",
+    "form_button_clear_fields": "مسح الحقول",
+    "form_button_save": "حفظ",
+    "form_photo_preview_text": "معاينة الصورة",
+    "form_browse_btn": "تصفح...",
+    "form_clear_btn": "مسح",
+    "form_tooltip_salary": "أدخل الراتب الشهري الإجمالي للموظف.",
+    "form_tooltip_photo_path": "مسار ملف صورة الموظف (JPG, PNG, إلخ).",
+    "form_tooltip_photo_browse": "تصفح بحثًا عن ملف صورة.",
+    "form_tooltip_phone": "أدخل رقم هاتف الموظف.",
+    "form_tooltip_email": "أدخل عنوان البريد الإلكتروني للموظف.",
+    "form_tooltip_photo_clear": "مسح مسار الصورة المحدد.",
+    "form_tooltip_save_add": "حفظ سجل الموظف الجديد.",
+    "form_tooltip_save_edit": "حفظ التغييرات في سجل الموظف.",
+    "form_tooltip_clear_form": "إعادة تعيين جميع الحقول في النموذج.",
+    "form_tooltip_cancel_form": "إغلاق هذا النموذج دون حفظ.",
+    "settings_window_title": "إعدادات التطبيق",
+    "settings_group_cloud_backup": "☁️ النسخ الاحتياطي السحابي (Google Drive)",
+    "settings_gdrive_status_label": "الحالة:",
+    "settings_gdrive_auth_button_text": "المصادقة مع Google Drive",
+    "settings_gdrive_backup_now_button_text": "النسخ الاحتياطي والمزامنة إلى Drive الآن",
+    "settings_group_general_appearance": "⚙️ عام والمظهر",
+    "settings_default_lang_label": "اللغة الافتراضية:",
+    "settings_default_theme_label": "السمة الافتراضية:",
+    "settings_group_telegram": "📲 إشعارات Telegram",
+    "settings_telegram_token_label": "رمز Telegram Bot:",
+    "settings_telegram_chat_id_label": "معرف دردشة Telegram:",
+    "settings_group_zkteco": "🔗 جهاز ZKTeco",
+    "settings_zkteco_ip_label": "IP جهاز ZKTeco:",
+    "settings_zkteco_port_label": "منفذ جهاز ZKTeco:",
+    "settings_zkteco_timeout_label": "مهلة ZKTeco (ثانية):",
+    "settings_zkteco_baud_rate_label": "نسبة السرعة البصرية ZKTeco:",
+    "settings_group_backup_recovery": "💾 النسخ الاحتياطي والاسترداد",
+    "settings_auto_backup_label": "تمكين النسخ الاحتياطي التلقائي:",
+    "settings_auto_backup_freq_label": "تكرار النسخ الاحتياطي التلقائي:",
+    "settings_group_data_management": "🧹 إدارة البيانات",
+    "settings_archive_cutoff_label": "أرشفة الموظفين المنتهية خدمتهم قبل:",
+    "settings_archive_button_text": "أرشفة الآن",
+    "settings_group_policies_rules": "📜 السياسات والقواعد",
+    "settings_leave_busy_threshold_label": "عتبة انشغال الإجازة (٪ قسم):",
+    "settings_public_holidays_label": "العطل الرسمية (YYYY-MM-DD، مفصولة بفواصل):",
+    "settings_default_leave_approver_label": "الموافق الافتراضي على الإجازات:",
+    "settings_default_contract_approver_label": "الموافق الافتراضي على العقود:",
+    "settings_group_attendance_management": "📅 إدارة الحضور والانصراف",
+    "settings_late_arrival_time_label": "وقت إشعار الوصول المتأخر (HH:MM:SS):",
+    "settings_group_auto_reports": "📊 التقارير التلقائية",
+    "settings_enable_weekly_stats_label": "تمكين تقرير الإحصاءات الأسبوعية:",
+    "settings_report_day_label": "يوم التقرير:",
+    "settings_report_time_label": "وقت التقرير (HH:MM):",
+    "settings_button_save": "حفظ الإعدادات",
+    "settings_saved_title": "تم حفظ الإعدادات",
+    "settings_saved_success_message": "تم حفظ الإعدادات بنجاح.",
+    "settings_tab_general_appearance": "عام ومظهر",
+    "settings_tab_integrations": "التكاملات والإشعارات",
+    "settings_tab_data_management": "إدارة البيانات",
+    "settings_tab_policies_rules": "السياسات والقواعد",
+    "settings_gdrive_status_checking": "جارٍ التحقق من الحالة...",
+    "settings_default_lang_tooltip": "قم بتعيين اللغة الافتراضية للتطبيق.",
+    "settings_default_theme_tooltip": "قم بتعيين السمة المرئية الافتراضية للتطبيق.",
+    "settings_telegram_token_tooltip": "رمز API لبوت Telegram الخاص بك. احصل عليه من BotFather على Telegram.",
+    "settings_telegram_chat_id_tooltip": "المعرف الفريد للدردشة/المجموعة على Telegram حيث سيتم إرسال الإشعارات.",
+    "settings_zkteco_ip_tooltip": "عنوان IP لجهاز الحضور والانصراف ZKTeco.",
+    "settings_zkteco_port_tooltip": "رقم المنفذ لجهاز ZKTeco (عادةً 4370).",
+    "settings_zkteco_timeout_tooltip": "مهلة الاتصال بجهاز ZKTeco بالثواني.",
+    "settings_enable_weekly_stats_tooltip": "إرسال ملخص إحصائيات الموارد البشرية الأسبوعية تلقائيًا إلى دردشة Telegram المكونة.",
+    "settings_report_day_tooltip": "يوم الأسبوع لإرسال التقرير الأسبوعي التلقائي.",
+    "settings_report_time_tooltip": "وقت اليوم (تنسيق 24 ساعة، مثال: 09:00) لإرسال التقرير الأسبوعي.",
+    "settings_gdrive_auth_button_tooltip": "المصادقة مع Google Drive لتمكين النسخ الاحتياطي السحابي.",
+    "settings_gdrive_backup_now_button_tooltip": "إجراء نسخ احتياطي فوري ومزامنته مع Google Drive (يتطلب المصادقة).",
+    "settings_auto_backup_tooltip": "تمكين أو تعطيل النسخ الاحتياطي التلقائي لقاعدة البيانات إلى دليل محلي.",
+    "settings_auto_backup_freq_tooltip": "عدد مرات إجراء النسخ الاحتياطي المحلي التلقائي (مثال: يومي، أسبوعي).",
+    "settings_archive_cutoff_tooltip": "أرشفة سجلات الموظفين الذين تم إنهاء خدمتهم في أو قبل التاريخ المحدد.",
+    "settings_leave_busy_threshold_tooltip": "تحذير إذا كانت الموافقة على طلب إجازة ستجعل أكثر من هذه النسبة المئوية من موظفي القسم غائبين.",
+    "settings_public_holidays_tooltip": "أدخل تواريخ العطلات الرسمية (YYYY-MM-DD)، مفصولة بفواصل. يتم استبعاد هذه الأيام من حسابات مدة العمل.",
+    "settings_default_leave_approver_tooltip": "اختر المستخدم الافتراضي الذي سيوافق على طلبات الإجازة إذا لم يتم تعيين مدير محدد.",
+    "settings_default_contract_approver_tooltip": "اختر المستخدم الافتراضي الذي سيوافق على العقود الجديدة إذا لم يتم تعيين مدير محدد.",
+    "settings_late_arrival_time_tooltip": "الوقت (HH:MM:SS) الذي يعتبر بعده تسجيل حضور الموظف متأخرًا لأغراض الإشعار.",
+    "settings_group_work_schedule": "🕒 جدول العمل",
+    "settings_std_work_hours_label": "ساعات العمل القياسية/اليوم:",
+    "settings_std_work_start_time_label": "وقت بدء العمل القياسي (HH:MM:SS):",
+    "settings_std_work_start_time_tooltip": "وقت بدء العمل الرسمي (مثال: 09:00:00).",
+    "settings_std_work_end_time_label": "وقت انتهاء العمل القياسي (HH:MM:SS):",
+    "settings_std_work_end_time_tooltip": "وقت الانتهاء الرسمي ليوم عمل قياسي.",
+    "header_emp_current_shift": "الدوام الحالي",
+    "current_shift_label": "الدوام الحالي:",
+    "rotate_shifts_btn_text": "تدوير جميع الدوامات",
+    "tooltip_rotate_shifts": "تدوير الدوامات لجميع الموظفين النشطين (مثال: صباحي إلى مسائي).",
+    "confirm_rotate_shifts_title": "تأكيد تدوير الدوامات",
+    "confirm_rotate_shifts_message": "هل أنت متأكد أنك تريد تدوير الدوامات لجميع الموظفين النشطين؟ سيؤدي هذا إلى نقل كل موظف إلى الدوام التالي في الدورة (مثال: صباحي -> مسائي -> ليلي -> صباحي).",
+    "shifts_rotated_success_message": "تم تدوير دوامات {count} موظف بنجاح.",
+    "no_shifts_rotated_message": "لم يتم تدوير أي دوامات للموظفين (ربما لا يوجد موظفون نشطون أو حدثت مشكلة).",
+    "rotate_shifts_every_week_button_text": "تدوير الدوامات كل أسبوع",
+    "rotate_shifts_every_week_button_tooltip": "ينقر لتنفيذ دورة واحدة من عملية تدوير الدوامات المصممة للتكرار أسبوعياً.",
+    "rotate_shifts_every_week_confirm_title": "تأكيد تدوير الدوامات (كل أسبوع)",
+    "rotate_shifts_every_week_confirm_message": "هل أنت متأكد أنك تريد تنفيذ دورة تدوير الدوامات 'كل أسبوع' الآن؟ سيؤدي هذا إلى نقل الموظفين إلى الدوام التالي في تسلسلهم الأسبوعي."
+,
+    "settings_std_lunch_break_label": "استراحة الغداء القياسية (دقيقة):",
+    "settings_std_lunch_break_tooltip": "المدة القياسية لاستراحة الغداء غير مدفوعة الأجر بالدقائق.",
+    
+    "settings_std_work_hours_tooltip": "العدد الافتراضي لساعات العمل اليومية للموظفين بدوام كامل.",
+    "settings_work_days_indices_label": "أيام العمل (0=الإثنين، 6=الأحد):",
+    "settings_work_days_indices_tooltip": "قائمة مفصولة بفواصل لمؤشرات أيام الأسبوع التي تعتبر أيام عمل (مثال: 0,1,2,3,4 للإثنين-الجمعة).",
+    "settings_group_late_arrival": "⏰ سياسات التأخير عن الحضور",
+    "settings_late_arrival_allowed_minutes_label": "الدقائق المسموح بها للتأخير:",
+    "settings_late_arrival_allowed_minutes_tooltip": "عدد الدقائق التي يمكن للموظف أن يتأخرها قبل أن يتم وضع علامة عليه أو معاقبته.",
+    "settings_late_arrival_penalty_type_label": "نوع عقوبة التأخير:",
+    "settings_late_arrival_penalty_type_tooltip": "نوع العقوبة للتأخير عن الحضور (لا شيء، مبلغ ثابت، نسبة مئوية من الأجر اليومي).",
+    "settings_late_arrival_penalty_amount_label": "مبلغ/معدل عقوبة التأخير:",
+    "settings_late_arrival_penalty_amount_tooltip": "المبلغ الثابت أو النسبة المئوية لعقوبات التأخير عن الحضور.",
+    "settings_group_vacation_policies": "🏖️ سياسات الإجازات",
+    "settings_default_annual_leave_days_label": "أيام الإجازة السنوية الافتراضية:", 
+    "settings_default_annual_leave_days_tooltip": "العدد الافتراضي لأيام الإجازة السنوية المخصصة للموظفين الجدد.", 
+    "settings_vacation_accumulation_policy_label": "سياسة تجميع الإجازات:",
+    "settings_vacation_accumulation_policy_tooltip": "سياسة تجميع أيام الإجازة (مثال: لا شيء، الحد الأقصى للأيام:30).", 
+    "settings_max_vacation_carry_over_label": "الحد الأقصى لترحيل أيام الإجازة:",
+    "settings_max_vacation_carry_over_tooltip": "الحد الأقصى لعدد أيام الإجازة غير المستخدمة التي يمكن ترحيلها إلى العام التالي.",
+    "settings_vacation_calculation_method_label": "طريقة حساب الإجازة:",
+    "settings_vacation_calculation_method_tooltip": "الطريقة المستخدمة لحساب أيام الإجازة (مثال: تخصيص سنوي ثابت، استحقاق شهري).",
+    "settings_group_leave_management": "📅 سياسات إدارة الإجازات",
+    "settings_late_arrival_notification_time_label": "وقت إشعار الوصول المتأخر (HH:MM:SS):", 
+    "settings_late_arrival_notification_time_tooltip": "الوقت (HH:MM:SS) الذي يعتبر بعده تسجيل حضور الموظف متأخرًا لأغراض الإشعار.",
+    "settings_group_absence_policy": "🚫 سياسة الغياب", 
+    "settings_min_unexcused_absence_days_label": "أدنى أيام غياب غير مبرر للتنبيه:",
+    "settings_min_unexcused_absence_days_tooltip": "الحد الأدنى لعدد أيام الغياب غير المبرر المتتالية لتشغيل تنبيه.",
+
+    "failed_to_save_settings_error": "فشل حفظ الإعدادات: {error}",
+    "language_change_title": "تغيير اللغة",
+    "settings_button_close": "إغلاق",
+    "payroll_window_title": "إدارة الرواتب",
+    "payroll_tab_generate": "إنشاء قسيمة راتب",
+    "payroll_tab_advances": "سلف الرواتب",
+    "payroll_tab_rewards_penalties": "المكافآت والعقوبات",
+    "payroll_employee_label": "الموظف:",
+    "payroll_period_start_label": "بداية الفترة (YYYY-MM-DD):",
+    "payroll_period_end_label": "نهاية الفترة (YYYY-MM-DD):",
+    "payroll_calculate_button": "حساب قسيمة الراتب",
+    "payroll_payslip_details_label": "تفاصيل قسيمة الراتب",
+    "payroll_save_button": "حفظ قسيمة الراتب",
+    "payroll_export_pdf_button": "تصدير PDF",
+    "payroll_rp_form_title": "إضافة مكافأة أو عقوبة",
+    "payroll_rp_type_label": "النوع:",
+    "payroll_rp_reward_radio": "مكافأة",
+    "payroll_rp_penalty_radio": "عقوبة",
+    "payroll_rp_description_label": "الوصف:",
+    "payroll_rp_amount_label": "المبلغ:",
+    "payroll_rp_eff_date_label": "تاريخ السريان (YYYY-MM-DD):",
+    "payroll_rp_add_item_button": "إضافة بند",
+    "payroll_adv_form_title": "إضافة سلفة راتب جديدة",
+    "payroll_adv_date_label": "تاريخ السلفة (YYYY-MM-DD):",
+    "payroll_adv_amount_label": "مبلغ السلفة:",
+    "payroll_adv_repay_per_period_label": "السداد/الفترة:",
+    "payroll_adv_repay_start_date_label": "بداية السداد (YYYY-MM-DD):",
+    "payroll_adv_add_button": "إضافة سلفة راتب",
+    "interview_form_frame_title": "جدولة/تعديل المقابلة",
+    "candidate_name_label": "اسم المرشح:",
+    "interviewer_label": "المُحاوِر:",
+    "date_label_format": "التاريخ (YYYY-MM-DD):",
+    "time_label_format": "الوقت (HH:MM):",
+    "duration_minutes_label": "المدة (دقائق):",
+    "location_label": "الموقع:",
+    "status_label": "الحالة:",
+    "notes_label": "ملاحظات:",
+    "interview_schedule_button": "جدولة المقابلة",
+    "interview_clear_form_button": "مسح النموذج",
+    "interview_list_frame_title": "المقابلات المجدولة",
+    "personal_info_section_title": "المعلومات الشخصية", 
+    "dashboard_open_window_btn": "فتح لوحة التحكم الكاملة",
+    "reports_open_window_btn": "فتح نافذة التقارير",
+    "payroll_open_window_btn": "فتح نافذة الرواتب",
+    "alerts_open_window_btn": "فتح نافذة التنبيهات",
+    "settings_open_window_btn": "فتح نافذة الإعدادات",
+    "header_emp_id": "المعرف",
+    "header_emp_name": "الاسم",
+    "header_emp_department": "القسم",
+    "header_emp_position": "المنصب",
+    "header_emp_salary": "الراتب",
+    "header_emp_status": "الحالة",
+    "header_emp_termination_date": "تاريخ الإنهاء",
+    "header_exclude_vacation_policy": "مستثنى من سياسة الإجازات",
+    "econtract_save_signed_btn": "حفظ العقد الموقع",
+    "contract_pdf_generated_success_message": "تم إنشاء ملف PDF للعقد بنجاح: {filepath}",
+    "signing_error_title": "خطأ في التوقيع",
+    "create_contract_pdf_first_warning": "يرجى إنشاء ملف PDF للعقد أولاً.", 
+    "save_error_title": "خطأ في الحفظ",
+    "report_type_perf_eval": "تقرير تقييم أداء الموظف",
+    "report_select_employee_label": "اختر الموظف:",
+    "report_eval_period_label": "فترة التقييم (مثال: YYYY-Q[1-4] أو 'الأحدث'):",
+    "report_header_eval_period": "فترة التقييم",
+    "report_header_eval_date": "تاريخ التقييم",
+    "report_header_evaluator": "المُقيِّم",
+    "report_header_criteria": "المعيار",
+    "report_header_score": "الدرجة",
+    "report_header_max_points": "الحد الأقصى",
+    "report_header_comment": "تعليق",
+    "task_form_save_button": "حفظ المهمة",
+    "unexpected_error_title": "خطأ غير متوقع",
+    "unexpected_error_occurred_message": "حدث خطأ غير متوقع: {error}",
+    "report_header_overall_score": "الدرجة الإجمالية",
+    "no_signed_contract_to_save_warning": "لا يوجد ملف PDF لعقد موقع متاح للحفظ. يرجى إنشاء العقد وتوقيعه أولاً.",
+    "report_header_overall_notes": "ملاحظات عامة",
+    "main_tab_approvals": "الموافقات",
+    "nav_approvals_btn_text": "الموافقات",
+    "tooltip_manage_approvals": "عرض وإدارة العناصر المعلقة لموافقتك.",
+    "contract_submitted_for_approval_message": "تم تقديم العقد للموافقة بنجاح.",
+    "gdrive_status_not_authenticated": "الحالة: غير مصادق عليه. انقر للمصادقة.",
+    "gdrive_status_authenticated": "الحالة: تمت المصادقة مع Google Drive.",
+    "gdrive_status_auth_failed": "الحالة: فشلت المصادقة.",
+    "gdrive_status_auth_error": "الحالة: خطأ في المصادقة.",
+    "gdrive_authenticating_status": "جارٍ المصادقة... يرجى اتباع التعليمات في المتصفح.",
+    "gdrive_credentials_not_found_error": "ملف بيانات اعتماد Google API ('{path}') غير موجود. لا يمكن المصادقة.",
+    "gdrive_auth_failed_network_error": "فشلت المصادقة مع Google Drive بسبب مشكلة في الشبكة أو الإعداد: {error}",
+    "gdrive_auth_failed_check_logs_message": "فشلت المصادقة مع Google Drive. يرجى مراجعة السجلات للحصول على التفاصيل.",
+    "dashboard_chart_contract_type_title": "توزيع أنواع العقود",
+    "dashboard_counter_total_employees": "إجمالي الموظفين النشطين:",
+    "dashboard_counter_new_this_month": "الموظفون الجدد (هذا الشهر):",
+    "dashboard_window_title": "لوحة تحكم الموارد البشرية",
+    "dashboard_tab_employees": "الموظفون",
+    "dashboard_tab_attendance": "الحضور",
+    "dashboard_tab_payroll": "الرواتب",
+    "dashboard_tab_performance": "الأداء", 
+    "dashboard_charts_section_title": "الرسوم البيانية",
+    "Total Employees": "إجمالي الموظفين",
+    "Pending Leaves": "الإجازات المعلقة",
+    "Departments": "الأقسام",
+    "reports_generation_error": "خطأ في إنشاء التقرير: {error_message}",
+    "Absences Today": "غيابات اليوم", 
+    "status_checked_in": "تم تسجيل الحضور",
+    "status_checked_out": "تم تسجيل الانصراف",
+    "status_late": "متأخر",
+    "status_on_time": "في الوقت المحدد",
+    "status_absent": "غائب",
+    "status_lateness_detail": "{minutes} دقيقة تأخير",
+    "settings_group_attendance_policy_alerts": "🕒 سياسة الحضور والتنبيهات",
+    "settings_enable_instant_lateness_display_label": "تمكين عرض التأخير الفوري:",
+    "settings_attendance_grace_period_label": "فترة السماح للحضور (دقائق):",
+    "settings_enable_absence_alert_label": "تمكين تنبيه الغياب اليومي:",
+    "settings_absence_alert_cutoff_time_label": "وقت قطع تنبيه الغياب (HH:MM):",
+    "settings_absence_alert_telegram_chat_id_label": "معرف دردشة Telegram لتنبيه الغياب (اختياري):",
+    "settings_enable_repeated_lateness_alert_label": "تمكين تنبيه التأخير المتكرر:",
+    "settings_lateness_alert_threshold_count_label": "عدد مرات التأخير للتنبيه:",
+    "settings_lateness_alert_period_days_label": "فترة تتبع التأخير (أيام):",
+    "settings_repeated_lateness_alert_telegram_chat_id_label": "معرف دردشة Telegram لتنبيه التأخير المتكرر (اختياري):",
+    "error_fetching_logs_message": "خطأ في جلب سجلات الحضور.",
+    "status_on_leave": "في إجازة",
+    "status_non_workday": "يوم غير عمل",
+    "status_not_available": "الحالة غير متوفرة",
+    "unassigned_department": "غير معين",
+    "header_emp_today_status": "حالة اليوم",
+    "employee_form_title_add": "إضافة موظف جديد",
+    "tab_personal_info": "المعلومات الشخصية",
+    "tab_job_info": "معلومات الوظيفة",
+    "tab_additional_info": "معلومات إضافية",
+    "save_button": "حفظ",
+    "cancel_button": "إلغاء",
+    "settings_telegram_test_button_text": "إرسال إشعار تجريبي",
+    "info_title": "معلومات",
+    
+    "manager_label": "المدير:",
+    "button_select_photo": "اختيار صورة",
+    "select_photo_dialog_title": "اختر صورة الموظف",
+    "image_files_filter_text": "ملفات الصور",
+    "all_files_filter_text": "جميع الملفات",
+    "invalid_photo_text": "صورة غير صالحة",
+    "employee_added_success_message_form": "تمت إضافة الموظف (المعرف: {emp_id}) بنجاح عبر النموذج.",
+    "google_drive_auth_error_title": "خطأ في مصادقة Google Drive",
+    "telegram_test_success_title": "نجاح اختبار Telegram",
+    "telegram_test_success_message": "تم إرسال إشعار الاختبار بنجاح إلى Telegram!",
+    "confirm_archival_title": "تأكيد الأرشفة",
+    "confirm_archive_employees_message": "هل أنت متأكد أنك تريد أرشفة الموظفين الذين انتهت خدمتهم في أو قبل تاريخ {date}؟",
+    "archival_complete_title": "اكتملت الأرشفة",
+    "employees_archived_success_message": "تمت أرشفة {count} موظف (موظفين) بنجاح.",
+    "status_displaying_all_employees": "عرض جميع الموظفين ({count}). اختر موظفًا لعرض التفاصيل.",
+    "approvals_dept_busy_warning": "تحذير: قد يكون قسم الموظف مشغولاً (العديد من الزملاء في إجازة) خلال هذه الفترة.",
+    "approvals_unexpected_processing_error": "حدث خطأ غير متوقع أثناء المعالجة: {error}",
+    "approvals_processing_error": "خطأ أثناء معالجة الموافقة: {error}",
+    "approvals_action_failed_message": "فشل {action} العنصر.",
+    "approvals_action_success_message": "تم {action} العنصر بنجاح.",
+    "approvals_confirm_reject_action": "هل أنت متأكد أنك تريد رفض هذا العنصر؟",
+   "approvals_confirm_approve_action": "هل أنت متأكد أنك تريد الموافقة على هذا العنصر؟",
+   "approvals_confirm_action_title": "تأكيد الإجراء",
+   "approvals_no_item_selected_warning": "لم يتم تحديد أي عنصر. يرجى تحديد عنصر للمعالجة.",
+
+   "approvals_select_item_prompt": "اختر عنصرًا من القائمة لعرض التفاصيل.",
+   "approvals_none_text": "لا يوجد",
+   "approvals_not_applicable": "غير متاح",
+   "approvals_no_reason_provided": "لم يتم تقديم سبب.",
+   "approvals_contract_details_format": "معرف العقد: {id}\nالموظف: {employee}\nالنوع: {type}\nتاريخ البدء: {start}\nتاريخ الانتهاء: {end}\nالمدة الأولية: {duration_years} سنوات\nتجديد تلقائي: {auto_renew}\nمدة التجديد: {renewal_term} سنوات\nفترة الإشعار: {notice_days} أيام\nشروط خاصة: {custom_terms}",
+   "approvals_leave_details_format": "معرف طلب الإجازة: {id}\nالموظف: {employee}\nالنوع: {type}\nالفترة: {start} إلى {end}\nتاريخ الطلب: {requested_on}\nالسبب: {reason}",
+   "approvals_load_error": "خطأ في تحميل الموافقات المعلقة: {error}",
+   "approvals_col_created_date": "تاريخ الإنشاء",
+   "approvals_col_contract_type": "نوع العقد",
+   "approvals_col_request_date": "تاريخ الطلب",
+   "approvals_col_end_date": "تاريخ الانتهاء",
+   "approvals_col_start_date": "تاريخ البدء",
+   "approvals_col_leave_type": "نوع الإجازة",
+   "approvals_col_employee": "الموظف",
+   "approvals_col_id": "المعرف",
+   "approvals_reject_button": "رفض",
+   "approvals_approve_button": "موافقة",
+   "approvals_comments_label": "تعليقات الموافق:",
+   "approvals_actions_label": "الإجراءات",
+   "approvals_details_label": "تفاصيل العنصر",
+   "approvals_refresh_button": "تحديث القائمة",
+    "approvals_pending_frame_title": "معلق لموافقتك",
+    "approvals_details_actions_frame_title": "تفاصيل وإجراءات الموافقة",
+    "approvals_header_item_id": "معرف العنصر",
+    "approvals_header_item_type": "النوع",
+    "approvals_header_requester": "مقدم الطلب",
+    "approvals_header_request_date": "تاريخ الطلب",
+    "approvals_header_summary": "ملخص",
+    "approvals_col_status": "الحالة",
+    "approvals_type_label": "نوع الموافقة:",
+    "approvals_user_not_identified_error": "لم يتم تحديد المستخدم الحالي. لا يمكن تحميل الموافقات.",
+    "approvals_window_title": "الموافقات المعلقة",
+    "menu_command_application_settings": "فتح إعدادات التطبيق...",
+    "dashboard_card_avg_performance": "متوسط الأداء",
+    "dashboard_chart_avg_perf_dept_title": "متوسط درجة الأداء حسب القسم",
+    "Avg. Performance": "متوسط الأداء",
+    "user_admin_info_open_from_sidebar": "يمكن الوصول إلى إدارة المستخدمين عبر زر 'إدارة المستخدمين' في شريط التنقل الجانبي.",
+    "adv_search_window_title": "بحث متقدم عن الموظفين",
+    "adv_search_criteria_frame_title": "معايير البحث",
+    "adv_search_include_archived_label": "تضمين الموظفين المؤرشفين",
+    "adv_search_name_label": "الاسم (يحتوي على):",
+    "adv_search_dept_label": "القسم:",
+    "adv_search_all_departments_option": "كل الأقسام",
+    "adv_search_position_label": "المنصب (يحتوي على):",
+    "adv_search_status_label": "الحالة:",
+    "adv_search_start_date_from_label": "تاريخ البدء من:",
+    "adv_search_start_date_to_label": "تاريخ البدء إلى:",
+    "adv_search_salary_from_label": "الراتب من:",
+    "adv_search_salary_to_label": "الراتب إلى:",
+    "adv_search_email_label": "البريد الإلكتروني (يحتوي على):",
+    "adv_search_phone_label": "الهاتف (يحتوي على):",
+    "adv_search_marital_status_label": "الحالة الاجتماعية:",
+    "adv_search_education_label": "التعليم (يحتوي على):",
+    "adv_search_termination_date_from_label": "تاريخ الإنهاء من:",
+    "adv_search_termination_date_to_label": "تاريخ الإنهاء إلى:",
+    "adv_search_button": "بحث",
+    "adv_search_clear_button": "مسح المعايير",
+    "adv_search_results_frame_title": "نتائج البحث",
+    "adv_search_no_criteria_message": "لم يتم إدخال معايير بحث. يرجى تحديد معيار واحد على الأقل.",
+    "adv_search_db_error": "خطأ في قاعدة البيانات أثناء البحث: {error}",
+    "adv_search_info_label": "استخدم البحث في اللوحة اليسرى للاستعلامات الأساسية بالاسم أو المعرف.\nلتصفية أكثر تفصيلاً، انقر فوق الزر أدناه.",
+    "adv_search_open_window_btn": "فتح نافذة البحث المتقدم",
+    "adv_search_no_criteria_title": "لا توجد معايير",
+    "adv_search_no_results_title": "لا توجد نتائج",
+    "adv_search_no_results_message": "لم يتطابق أي موظف مع المعايير المحددة.",
+    "generation_error_title": "خطأ في الإنشاء",
+    "failed_to_generate_contract_pdf_error": "فشل إنشاء ملف PDF للعقد: {error}",
+    "settings_info_open_from_sidebar": "يمكن الوصول إلى الإعدادات عبر زر 'الإعدادات' في شريط التنقل الجانبي.",
+    "metrics_info_open_from_sidebar": "يمكن الوصول إلى المقاييس عبر زر 'المقاييس' في شريط التنقل الجانبي.", 
+    "interview_scheduling_info_open_from_sidebar": "يمكن الوصول إلى جدولة المقابلات عبر زر 'جدولة المقابلات' في شريط التنقل الجانبي.",
+    "failed_to_save_signed_contract_error": "فشل حفظ العقد الموقع: {error}",
+    "failed_to_add_manager_signature_error": "فشل إضافة توقيع المدير: {error}",
+    "signed_contract_saved_success_message": "تم حفظ العقد الموقع (معرف المستند: {doc_id}) بنجاح.",
+    "alerts_no_alerts_title": "لا توجد تنبيهات",
+    "alerts_no_alerts_message": "لم يتم إنشاء تنبيهات حضور للمعايير المحددة.",
+    "employee_updated_success_message_form": "تم تحديث الموظف (المعرف: {emp_id}) بنجاح عبر النموذج.",
+    "Leave Requests": "طلبات الإجازات", 
+    "Contract Approvals": "موافقات العقود",
+    "metrics_general_hr_title": "نظرة عامة على الموارد البشرية",
+    "metrics_avg_tenure_label": "متوسط مدة خدمة الموظف (نشط):",
+    "metrics_new_hires_label": "التعيينات الجديدة (الفترة):",
+    "metrics_terminations_label": "إنهاء الخدمات (الفترة):",
+    "metrics_active_contracts_label": "العقود النشطة:",
+    "approvals_info_open_from_sidebar": "يمكن الوصول إلى الموافقات عبر زر 'الموافقات' في شريط التنقل الجانبي.",
+    "search_gender_label": "الجنس:",
+    "gender_option_all": "الكل",
+    "gender_option_male": "ذكر",
+    "gender_option_female": "أنثى",
+    "gender_option_other": "آخر",
+    "nav_dept_mgt_btn_text": "الأقسام",
+    "tooltip_manage_departments": "إدارة أقسام الشركة وعرض التفاصيل وإضافة أقسام جديدة.",
+   "department_management_window_title": "إدارة الأقسام",
+   "department_list_frame_title": "الأقسام",
+   "dept_id_header": "المعرف",
+   "dept_name_header": "اسم القسم",
+   "dept_emp_count_header": "الموظفون",
+   "department_details_frame_title": "تفاصيل القسم",
+   "dept_name_label": "الاسم:",
+   "dept_description_label": "الوصف:",
+   "dept_add_button": "إضافة قسم",
+   "dept_update_button": "تحديث القسم",
+   "dept_delete_button": "حذف القسم",
+   "dept_clear_button": "مسح النموذج",
+   "dept_name_required_error": "اسم القسم لا يمكن أن يكون فارغاً.",
+   "dept_add_success_message": "تمت إضافة القسم '{name}' بنجاح.",
+   "dept_add_error_message": "فشل في إضافة القسم: {error}",
+   "dept_update_success_message": "تم تحديث القسم '{name}' بنجاح.",
+   "dept_update_error_message": "فشل في تحديث القسم: {error}",
+   "dept_delete_confirm_message": "هل أنت متأكد أنك تريد حذف القسم '{name}'؟ لا يمكن التراجع عن هذا الإجراء.",
+   "dept_delete_success_message": "تم حذف القسم '{name}' بنجاح.",
+   "dept_delete_error_message": "فشل في حذف القسم: {error}",
+   "dept_select_to_update_warning": "يرجى تحديد قسم لتحديثه.",
+   "dept_select_to_delete_warning": "يرجى تحديد قسم لحذفه.",
+
+    "could_not_load_departments_error": "تعذر تحميل الأقسام: {error}",
+    "could_not_open_profile_window_error": "تعذر فتح نافذة ملف تعريف الموظف: {error}",
+    "application_controller_not_available_error": "وحدة التحكم في التطبيق غير متاحة لفتح نافذة الملف الشخصي.",
+    "payslip_earnings_section_title": "الاستحقاقات",
+    "payslip_deductions_section_title": "الاستقطاعات",
+    "payslip_summary_section_title": "الملخص",
+    "payslip_notes_section_title": "ملاحظات",
+    "payslip_gross_salary_label": "الراتب الإجمالي:",
+    "payslip_total_deductions_label": "إجمالي الاستقطاعات:",
+    "payslip_net_pay_label": "صافي الراتب:",
+    "payslip_item_basic_salary": "الراتب الأساسي",
+    "payslip_item_overtime_pay": "أجر العمل الإضافي",
+    "payslip_item_total_allowances": "إجمالي البدلات",
+    "payslip_item_total_other_deductions": "إجمالي الاستقطاعات الأخرى",
+    "payslip_item_advance_repayment": "سداد السلفة",
+    "payslip_item_monthly_ref_salary": "الراتب الشهري المرجعي:",
+    "payslip_item_basic_salary_period": "الراتب الأساسي للفترة:",
+    "payslip_item_overtime_pay_hours": "أجر العمل الإضافي ({hours:.2f} ساعة):",
+    "payslip_item_recurring": "متكرر",
+    "payslip_item_bonus_other": "مكافأة/أخرى",
+    "payslip_item_penalty_other": "جزاء/أخرى",
+    "payroll_tab_my_payslips": "كشوفاتي",
+    "payslip_history_frame_title": "سجل كشوفات الرواتب",
+    "payslip_history_header_id": "المعرف",
+    "payslip_history_header_period_start": "بداية الفترة",
+    "payslip_history_header_period_end": "نهاية الفترة",
+    "payslip_history_header_net_pay": "صافي الراتب",
+    "payslip_history_header_generated_on": "تاريخ الإنشاء",
+    "payroll_error_loading_history": "خطأ في تحميل سجل كشوفات الرواتب: {error}",
+    "payroll_advances_frame_title": "سلف الرواتب",
+    "payroll_rp_load_error": "خطأ في تحميل المكافآت/الجزاءات: {error}",
+
+"payroll_adv_existing_advances_label": "سلف الراتب الحالية",
+"payroll_adv_header_id": "المعرف",
+"payroll_adv_header_date": "التاريخ",
+"payroll_adv_header_amount": "المبلغ",
+"payroll_adv_header_repay_per_period": "السداد/الفترة",
+"payroll_adv_header_total_repaid": "إجمالي المسدد",
+"payroll_adv_header_status": "الحالة",
+"vacation_management_window_title": "إدارة الإجازات",
+"vacation_submit_request_frame_title": "تقديم طلب إجازة جديد",
+"vacation_existing_requests_frame_title": "طلبات الإجازة الحالية",
+"vacation_employee_label": "الموظف:",
+"vacation_balance_na_text": "رصيد الإجازات: غير متوفر",
+"employee_not_found_for_balance_error": "الموظف {emp_id} غير موجود للتحقق من الرصيد.",
+"vacation_type_label": "نوع الإجازة:",
+"vacation_balance_text": "رصيد الإجازات: {balance} يوم",
+"vacation_balance_error_text": "رصيد الإجازات: خطأ",
+"vacation_leave_type_label": "نوع الإجازة:",
+"vacation_start_date_label": "تاريخ البدء (YYYY-MM-DD):",
+"vacation_end_date_label": "تاريخ الانتهاء (YYYY-MM-DD):",
+"vacation_reason_label": "السبب (اختياري):",
+"vacation_check_conflicts_button": "التحقق من تعارضات الزملاء",
+"vacation_submit_button": "إرسال الطلب",
+"vacation_header_req_id": "معرف الطلب",
+"vacation_header_type": "النوع",
+"vacation_header_start_date": "تاريخ البدء",
+"vacation_header_end_date": "تاريخ الانتهاء",
+"vacation_header_requested_on": "تاريخ الطلب",
+"vacation_header_status": "الحالة",
+"vacation_header_reason": "السبب",
+"vacation_employee_select_error": "يرجى تحديد موظف.",
+"vacation_dates_required_for_conflict_error": "تاريخ البدء وتاريخ الانتهاء مطلوبان للتحقق من التعارضات.",
+"vacation_no_department_for_conflict_check_info": "الموظف غير معين لقسم. لا يمكن التحقق من تعارضات الزملاء.",
+"vacation_conflict_check_title": "التحقق من التعارض",
+"vacation_no_conflicts_title": "لا توجد تعارضات",
+"vacation_no_conflicts_message": "لم يتم العثور على إجازات معتمدة متعارضة للزملاء في قسمك خلال هذه الفترة.",
+"vacation_conflicts_found_title": "تم العثور على تعارضات محتملة",
+"vacation_conflicts_found_message_prefix": "الزميل (الزملاء) لديهم إجازة معتمدة متداخلة:",
+"vacation_conflict_detail_item": "- {name} (المعرف: {id}): {type} من {start} إلى {end}",
+"vacation_conflict_check_error": "تعذر التحقق من التعارضات: {error}",
+"vacation_error_loading_requests": "خطأ في تحميل طلبات الإجازة: {error}",
+"vacation_missing_fields_error": "نوع الإجازة وتاريخ البدء وتاريخ الانتهاء مطلوبة.",
+"vacation_start_after_end_error": "لا يمكن أن يكون تاريخ البدء بعد تاريخ الانتهاء.",
+"vacation_confirm_past_date_title": "تأكيد تاريخ سابق",
+"vacation_confirm_past_date_message": "تاريخ بدء الإجازة في الماضي. هل ترغب في المتابعة؟",
+"vacation_dept_busy_title": "القسم مشغول",
+"vacation_dept_busy_message": "تحذير: قد يكون قسمك مشغولاً خلال فترة الإجازة المطلوبة (أي أن العديد من الزملاء في إجازة بالفعل).\n\nقد يؤدي تقديم هذا الطلب إلى مراجعته بشكل أكثر دقة أو رفضه.\n\nهل ما زلت ترغب في تقديم طلب الإجازة هذا؟",
+"vacation_busy_check_error_title": "خطأ في التحقق من الانشغال",
+"vacation_busy_check_error_message": "تعذر التحقق من عبء العمل في القسم. يرجى مراعاة قدرة الفريق.",
+"vacation_request_submitted_success": "تم إرسال طلب الإجازة بنجاح.",
+"vacation_submit_unexpected_error": "حدث خطأ غير متوقع أثناء إرسال طلب الإجازة: {error}",
+"payroll_rp_header_item_type": "النوع",
+"payroll_rp_header_description": "الوصف",
+"payroll_rp_header_amount": "المبلغ",
+      "eval_criteria_window_title": "إدارة معايير التقييم",
+      "eval_criteria_list_frame_title": "قائمة المعايير",
+      "eval_criteria_details_frame_title": "تفاصيل المعيار",
+      "eval_criteria_name_label": "اسم المعيار:",
+      "eval_criteria_max_points_label": "الحد الأقصى للنقاط:",
+      "eval_criteria_description_label": "الوصف:",
+      "eval_criteria_add_button": "إضافة معيار",
+      "eval_criteria_update_button": "تحديث المعيار",
+      "eval_criteria_delete_button": "حذف المعيار",
+      "eval_criteria_clear_button": "مسح النموذج",
+      "eval_criteria_header_id": "المعرف",
+      "eval_criteria_header_name": "الاسم",
+      "eval_criteria_header_max_points": "الحد الأقصى للنقاط",
+      "eval_criteria_error_loading_details": "خطأ في تحميل تفاصيل المعيار: {error}",
+      "eval_criteria_max_points_invalid_error": "يجب أن يكون الحد الأقصى للنقاط عددًا صحيحًا صالحًا.",
+      "eval_criteria_name_required_error": "اسم المعيار مطلوب.",
+      "eval_criteria_add_success": "تمت إضافة المعيار '{name}' بنجاح.",
+      "eval_criteria_select_to_update_warning": "يرجى تحديد معيار لتحديثه.",
+      "eval_criteria_update_success": "تم تحديث المعيار '{name}' بنجاح.",
+      "eval_criteria_select_to_delete_warning": "يرجى تحديد معيار لحذفه.",
+      "eval_criteria_delete_confirm": "هل أنت متأكد أنك تريد حذف المعيار '{name}'؟ قد يؤثر هذا على التقييمات الحالية إذا كان مستخدمًا.",
+      "eval_criteria_delete_success": "تم حذف المعيار '{name}' بنجاح.",
+      "Department Summary": "ملخص القسم", 
+    "Salary Distribution": "توزيع الرواتب", 
+    "Department Statistics (Headcount & Person-Days)": "إحصائيات القسم (عدد الموظفين وأيام العمل)",
+    "Average Employee Performance": "متوسط أداء الموظف",
+    "Employee Performance Evaluation (Detailed)": "تقييم أداء الموظف (تفصيلي)", 
+      "report_header_avg_score": "متوسط الدرجات",
+      "report_header_eval_count": "عدد التقييمات",
+   "Department": "القسم",
+    "Employee Count": "عدد الموظفين",
+    "Average Salary": "متوسط الراتب",
+    "Total Person-Days": "إجمالي أيام العمل",
+    "Employee Performance": "أداء الموظف",
+    "Evaluation Date": "تاريخ التقييم",
+    "Employee Name": "اسم الموظف",
+    "Evaluation Score": "درجة التقييم",
+    "Evaluation Comments": "تعليقات التقييم",
+    "Evaluation Details": "تفاصيل التقييم",
+    "Evaluation Score (Average)": "درجة التقييم (متوسط)",
+    "Evaluation Count": "عدد التقييمات",
+    "Evaluation Period": "فترة التقييم",
+    "Evaluation Period (Start Date)": "بداية فترة التقييم",
+    "Evaluation Period (End Date)": "نهاية فترة التقييم",
+    "Evaluation Period (Custom)": "فترة التقييم (مخصصة)",
+    "Evaluation Period (Custom Start Date)": "بداية فترة التقييم المخصصة",
+    "Evaluation Period (Custom End Date)": "نهاية فترة التقييم المخصصة",
+    "Evaluation Period (Last 30 Days)": "آخر 30 يوم",
+    "Evaluation Period (Last 60 Days)": "آخر 60 يوم",
+    "Evaluation Period (Last 90 Days)": "آخر 90 يوم",
+    "Evaluation Period (Last 120 Days)": "آخر 120 يوم",
+    "Evaluation Period (Custom Range)": "فترة مخصصة",
+    "Evaluation Period (Custom Range Start Date)": "بداية فترة مخصصة",
+    "Evaluation Period (Custom Range End Date)": "نهاية فترة مخصصة",
+    "Evaluation Period (All Time)": "الكل",
+    "Evaluation Period (All Time Start Date)": "بداية جميع الوقت",
+    "Evaluation Period (All Time End Date)": "نهاية جميع الوقت",
+    "Total Hours": "إجمالي الساعات",
+    "Total Hours (All Time)": "إجمالي الساعات (الكل)",
+    "Total Hours (Last 30 Days)": "إجمالي الساعات (آخر 30 يوم)",
+    "Total Hours (Last 60 Days)": "إجمالي الساعات (آخر 60 يوم)",
+    "Total Hours (Last 90 Days)": "إجمالي الساعات (آخر 90 يوم)",
+    "Total Hours (Last 120 Days)": "إجمالي الساعات (آخر 120 يوم)",
+    "Total Hours (Custom Range)": "إجمالي الساعات (فترة مخصصة)",
+    "Total Hours (Custom Range Start Date)": "بداية فترة مخصصة",
+    "Total Hours (Custom Range End Date)": "نهاية فترة مخصصة",
+    "Total Hours (Custom)": "إجمالي الساعات (مخصصة)",
+    "Total Hours (Custom Start Date)": "بداية فترة مخصصة",
+    "Total Hours (Custom End Date)": "نهاية فترة مخصصة",
+    "Status": "الحالة",
+    "pdf_file_type_label": "ملفات PDF", 
+    "excel_file_type_label": "ملفات Excel",
+    "csv_file_type_label": "ملفات CSV",
+    "all_file_types_label": "الكل",
+    "download_reports_dialog_title": "تحميل التقرير",
+    "download_reports_file_type_label": "نوع الملف:",
+    "download_reports_apply_button": "تطبيق",
+    "download_reports_cancel_button": "إلغاء",
+    "download_reports_save_button": "حفظ",
+    "download_reports_save_as_button": "حفظ كـ",
+    "download_reports_save_pdf_button": "حفظ كـ PDF",
+    "download_reports_save_as_dialog_title": "حفظ التقرير كـ",
+    "download_reports_save_as_file_name_label": "اسم الملف:",
+    "reports_save_csv_dialog_title": "حفظ التقرير كـ CSV",
+    "reports_save_pdf_dialog_title": "حفظ التقرير كـ PDF",
+   "Salary Distribution by Department": "توزيع الرواتب حسب القسم",
+   "reports_num_bins_label": "عدد الفئات:", 
+   "reports_min_salary_header": "أدنى راتب",
+   "reports_max_salary_header": "أقصى راتب" , 
+   "manage_leave_button_text": "إدارة الإجازات", 
+   "tooltip_manage_leave": "فتح إدارة الإجازات للموظف المحدد." ,
+   "tooltip_manage_leave_requests": "انقر لإدارة طلبات الإجازة.",
+   "task_management_window_title": "إدارة المهام",
+   "tasks_list_frame_title": "قائمة المهام",
+   "tasks_header_id": "المعرف",
+   "tasks_header_title": "العنوان",
+   "tasks_header_assignee": "مُسندة إلى",
+    "tasks_header_status": "الحالة",
+    "tasks_header_priority": "الأولوية",
+    "tasks_header_due_date": "تاريخ الاستحقاق",
+    "tasks_header_assigner": "أُسندت بواسطة (مستخدم)",
+    "tasks_header_monitor": "مُراقبة بواسطة (مستخدم)",
+    "tasks_header_created_on": "تاريخ الإنشاء",
+    "chatbot_profile_opened_message": "\n\nتم فتح نافذة ملف الموظف.",
+    "chatbot_no_employees_found": "لم يتم العثور على موظفين في النظام.",
+    "chatbot_active_employees_list_header": "الموظفون النشطون:",
+    "chatbot_list_limit_message": "... و {count} آخرون.",
+    "chatbot_no_active_employees_found": "لم يتم العثور على موظفين نشطين.",
+    "chatbot_active_employee_count_response": "يوجد حاليًا {count} موظف نشط.",
+    "chatbot_error_getting_active_count": "عذرًا، لم أتمكن من استرداد عدد الموظفين النشطين.",
+    "chatbot_no_departments_found": "لم يتم العثور على أقسام في النظام.",
+    "chatbot_department_list_header": "الأقسام:",
+    "chatbot_error_listing_departments": "عذرًا، لم أتمكن من استرداد قائمة الأقسام.",
+    "كم عدد الموظفين النشطين": "كم عدد الموظفين النشطين", 
+    "عدد الموظفين النشطين": "عدد الموظفين النشطين",     
+    "قائمة الأقسام": "قائمة الأقسام",                  
+    "عرض الأقسام": "عرض الأقسام",
+    "chatbot_error_listing_employees": "عذراً، حدث خطأ أثناء عرض قائمة الموظفين.",
+    "report_type_attendance_scorecard": "بطاقة أداء الحضور",
+    "report_title_monthly_attendance_scorecard": "بطاقة أداء الحضور الشهرية لـ {employee_name}",
+    "attendance_scorecard_report_window_title": "تقرير بطاقة أداء الحضور",
+    "report_header_month_year": "الشهر/السنة:",
+    "report_metric_attendance_commitment": "نسبة الالتزام بالحضور:",
+    "report_metric_avg_lateness_minutes": "متوسط التأخير الشهري (دقائق):",
+    "report_metric_num_days_late": "عدد أيام التأخير:",
+    "report_metric_num_unexcused_absences": "عدد الغيابات غير المبررة:",
+    "report_metric_num_excused_absences": "عدد الغيابات المبررة:",
+    "report_metric_total_scheduled_days": "إجمالي أيام العمل المجدولة:",
+    "report_metric_total_days_present": "إجمالي أيام الحضور:",
+    "report_summary_attendance_rating": "تقييم الحضور العام:",
+    "report_notes_attendance_scorecard": "ملاحظات حول أداء الحضور:",
+    "tooltip_generate_attendance_scorecard": "إنشاء بطاقة أداء الحضور الشهرية للموظف المحدد.",
+    "employee_portal_title": "بوابة الموظف",
+    "my_profile_btn": "ملفي الشخصي",
+    "my_leave_requests_btn": "طلبات إجازاتي",
+    "welcome_employee_portal_message": "مرحباً بك في بوابة الموظفين!",
+    "my_attendance_btn": "سجل حضوري",
+    "my_payslips_btn": "قسائم راتبي",
+    "my_documents_btn": "مستنداتي",
+    "manager_portal_title": "بوابة المدير",
+    "team_overview_btn": "نظرة عامة على الفريق",
+    "pending_approvals_btn": "الموافقات المعلقة",
+    "welcome_manager_portal_message": "مرحباً بك في بوابة المدراء!",
+    "attendance_log_viewer_title_key": "عارض سجل الحضور",
+    "error_loading_employees_message": "خطأ في تحميل قائمة الموظفين.",
+    "zk_log_header_timestamp": "الطابع الزمني",
+    "zk_log_header_status": "الحالة",
+    "zk_log_header_details": "التفاصيل",
+    "zk_log_header_employee": "الموظف",
+    "manager_id_not_found_error": "تعذر تحديد معرّف المدير. لا يمكن عرض حضور الفريق.",
+    "profile_today_status_label": "حالة اليوم:",
+    "profile_status_checked_in_at": "تم تسجيل الحضور الساعة {time}",
+    "profile_status_checked_out_at": "تم تسجيل الانصراف الساعة {time}",
+    "main_tab_fingerprint_analysis": "تحليل سجل البصمة",
+    "eval_record_reward_button": "تسجيل مكافأة",
+    "eval_select_for_reward_warning": "يرجى حفظ أو تحديد تقييم قبل تسجيل مكافأة.",
+    "eval_reward_amount_title": "تسجيل مكافأة",
+    "eval_reward_amount_prompt": "أدخل مبلغ المكافأة:",
+    "eval_reward_recorded_success": "تم تسجيل مكافأة بمبلغ {amount} بنجاح.",
+    "eval_reward_invalid_amount_error": "مبلغ المكافأة غير صالح. يرجى إدخال رقم موجب.",
+    "eval_reward_record_error": "فشل تسجيل المكافأة: {error}",
+    "fp_analysis_import_btn": "استيراد سجل البصمة (CSV)",
+    "fp_analysis_results_frame_title": "بيانات البصمة المحللة",
+    "fp_header_emp_id": "معرف الموظف",
+    "fp_header_timestamp": "חותם זמן",
+    "fp_header_event_type": "نوع الحدث",
+    "fp_header_device_id": "معرف الجهاز (من CSV)",
+    "fp_event_check_in": "تسجيل حضور",
+    "fp_event_check_out": "تسجيل انصراف",
+    "fp_event_break_out": "بداية استراحة",
+    "fp_event_break_in": "نهاية استراحة",
+    "fp_event_unknown": "حدث غير معروف",
+    "payroll_export_accounting_btn": "تصدير للمحاسبة",
+    "payroll_export_dialog_title": "تصدير كشوف المرتبات للمحاسبة",
+    "payroll_export_format_label": "تنسيق التصدير:",
+    "payroll_export_format_excel": "Excel (.xlsx)",
+    "payroll_export_format_iif": "QuickBooks IIF (.iif)", 
+    "payroll_export_success_message": "تم تصدير بيانات كشوف المرتبات بنجاح إلى: {filepath}",
+    "payroll_export_failed_message": "فشل تصدير بيانات كشوف المرتبات: {error}",
+    "nav_training_dev_btn_text": "التدريب والتطوير",
+    "tooltip_training_dev": "إدارة الدورات التدريبية والجلسات ومهارات الموظفين.",
+    "training_course_mgt_window_title": "إدارة الدورات التدريبية",
+    "training_course_list_frame_title": "الدورات التدريبية المتاحة",
+    "training_course_details_frame_title": "تفاصيل الدورة",
+    "training_course_name_label": "اسم الدورة:",
+    "training_course_provider_label": "المقدم:",
+    "training_course_duration_label": "المدة (ساعات):",
+    "training_course_description_label": "الوصف:",
+    "training_course_add_btn": "إضافة دورة",
+    "training_course_update_btn": "تحديث الدورة",
+    "training_course_delete_btn": "حذف الدورة",
+    "training_course_clear_btn": "مسح النموذج",
+    "training_course_header_id": "المعرف",
+    "training_course_header_name": "اسم الدورة",
+    "training_course_header_provider": "المقدم",
+    "training_course_header_duration": "المدة (ساعات)",
+    "training_course_add_success": "تمت إضافة الدورة التدريبية '{name}' بنجاح.",
+    "training_course_update_success": "تم تحديث الدورة التدريبية '{name}' بنجاح.",
+    "training_course_delete_confirm": "هل أنت متأكد أنك تريد حذف الدورة التدريبية '{name}'؟ قد يؤثر هذا على الجلسات المجدولة.",
+    "training_course_delete_success": "تم حذف الدورة التدريبية '{name}' بنجاح.",
+    "training_course_error_loading_details": "خطأ في تحميل تفاصيل الدورة: {error}",
+    "profile_cv_select_file_button": "اختر ملف السيرة الذاتية...",
+    "profile_cv_selected_file_label_prefix": "الملف المحدد:",
+    "profile_cv_no_file_selected": "لم يتم اختيار ملف.",
+    "profile_cv_parse_error": "تعذر تحليل السيرة الذاتية: {error}",
+    "settings_tab_calendar_integration": "مزامنة التقويم",
+    "settings_group_google_calendar": "مزامنة تقويم جوجل",
+    "settings_gcal_connect_button_text": "الاتصال بتقويم جوجل",
+    "settings_gcal_disconnect_button_text": "قطع الاتصال بتقويم جوجل",
+    "settings_gcal_status_label": "الحالة:",
+    "settings_gcal_status_not_connected": "غير متصل",
+    "settings_gcal_status_connected_as": "متصل كـ: {email}",
+    "settings_gcal_status_authenticating": "جاري المصادقة...",
+    "settings_gcal_status_error": "خطأ في المصادقة",
+    "settings_gcal_sync_interviews_label": "مزامنة المقابلات الجديدة مع التقويم:",
+    "settings_gcal_sync_vacations_label": "مزامنة الإجازات المعتمدة مع التقويم:",
+    "settings_gcal_auth_success_message": "تمت المصادقة بنجاح مع تقويم جوجل كـ {email}.",
+    "settings_gcal_auth_failed_message": "فشلت المصادقة مع تقويم جوجل: {error}",
+    "settings_gcal_disconnected_message": "تم قطع الاتصال بتقويم جوجل.",
+    "nav_skill_mgt_btn_text": "كتالوج المهارات",
+    "tooltip_skill_mgt": "إدارة كتالوج مهارات الشركة.",
+    "skill_mgt_window_title": "إدارة كتالوج المهارات",
+    "skill_list_frame_title": "المهارات المتاحة",
+    "skill_details_frame_title": "تفاصيل المهارة",
+    "skill_name_label": "اسم المهارة:",
+    "skill_category_label": "الفئة:",
+    "skill_description_label": "الوصف:",
+    "skill_add_btn": "إضافة مهارة",
+    "skill_update_btn": "تحديث المهارة",
+    "skill_delete_btn": "حذف المهارة",
+    "skill_clear_btn": "مسح النموذج",
+    "skill_header_id": "المعرف",
+    "skill_header_name": "اسم المهارة",
+    "skill_header_category": "الفئة",
+    "skill_add_success": "تمت إضافة المهارة '{name}' بنجاح.",
+    "skill_update_success": "تم تحديث المهارة '{name}' بنجاح.",
+    "skill_delete_confirm": "هل أنت متأكد أنك تريد حذف المهارة '{name}'؟ سيؤدي هذا إلى إزالتها من الموظفين إذا لم تكن مقيدة.",
+    "skill_delete_success": "تم حذف المهارة '{name}' بنجاح.",
+    "skill_error_loading_details": "خطأ في تحميل تفاصيل المهارة: {error}",
+    "profile_tab_skills_training": "المهارات والتدريب",
+    "profile_skills_assigned_title": "المهارات المسندة",
+    "profile_skills_add_btn": "إضافة مهارة",
+    "profile_skills_edit_btn": "تعديل المهارة المحددة",
+    "profile_skills_remove_btn": "إزالة المهارة المحددة",
+    "profile_skills_header_name": "اسم المهارة",
+    "profile_skills_header_category": "الفئة",
+    "profile_skills_header_proficiency": "الكفاءة",
+    "profile_skills_header_acquired_date": "تاريخ الاكتساب",
+    "profile_skills_no_skills_assigned": "لم يتم إسناد أي مهارات لهذا الموظف بعد.",
+    "profile_skills_error_loading": "خطأ في تحميل مهارات الموظف: {error}",
+    "profile_skills_confirm_remove": "هل أنت متأكد أنك تريد إزالة المهارة '{skill_name}' من هذا الموظف؟",
+    "assign_skill_dialog_title": "إسناد مهارة لموظف",
+    "assign_skill_select_skill_label": "اختر المهارة:",
+    "assign_skill_proficiency_label": "مستوى الكفاءة:",
+    "assign_skill_acquisition_date_label": "تاريخ الاكتساب:",
+    "assign_skill_save_button": "إسناد المهارة",
+    "assign_skill_no_skill_selected_error": "يرجى اختيار مهارة لإسنادها.",
+    "assign_skill_proficiency_empty_error": "لا يمكن أن يكون مستوى الكفاءة فارغًا.",
+    "assign_skill_assigned_success": "تم إسناد المهارة '{skill_name}' للموظف بنجاح.",
+    
+    
+    "profile_show_qr_code_btn": "عرض رمز QR",
+    "qr_code_window_title_profile": "رمز QR للموظف {emp_name} ({emp_id})",
+    "qr_code_save_btn_profile": "حفظ رمز QR"
+
+
+
+}

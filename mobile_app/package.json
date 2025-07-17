@@ -1,0 +1,10 @@
+{
+  "name": "mobile_app_workspace_root",
+  "private": true,
+  "devDependencies": {
+    "@react-native-community/cli": "latest"
+  },
+  "dependencies": {
+    "react-native-nfc-manager": "^3.16.1"
+  }
+}
